@@ -15,10 +15,9 @@
 		832AC11F25DFE6CC0068860C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 832AC11D25DFE6CC0068860C /* LaunchScreen.storyboard */; };
 		832AC13E25DFED410068860C /* WelcomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832AC13D25DFED410068860C /* WelcomeTableViewController.swift */; };
 		832AC14425DFEF560068860C /* Extensior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832AC14325DFEF560068860C /* Extensior.swift */; };
-		832AC14E25E00AAC0068860C /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832AC14A25E00AAC0068860C /* BounceButton.swift */; };
-		832AC14F25E00AAC0068860C /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832AC14B25E00AAC0068860C /* DesignableTextField.swift */; };
-		832AC15025E00AAC0068860C /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 832AC14C25E00AAC0068860C /* Montserrat-Medium.ttf */; };
-		832AC15125E00AAC0068860C /* DesignButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832AC14D25E00AAC0068860C /* DesignButton.swift */; };
+		83735A7325E5959C00679041 /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83735A7225E5959C00679041 /* BounceButton.swift */; };
+		83735A7625E595BB00679041 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83735A7525E595BB00679041 /* DesignableTextField.swift */; };
+		83735A7925E5960D00679041 /* DesignButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83735A7825E5960D00679041 /* DesignButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,10 +31,9 @@
 		832AC12025DFE6CC0068860C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		832AC13D25DFED410068860C /* WelcomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeTableViewController.swift; sourceTree = "<group>"; };
 		832AC14325DFEF560068860C /* Extensior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensior.swift; sourceTree = "<group>"; };
-		832AC14A25E00AAC0068860C /* BounceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BounceButton.swift; path = "../../../../../OpenWeatherApp-main/OpenWeatherApp/ExtraResource/BounceButton.swift"; sourceTree = "<group>"; };
-		832AC14B25E00AAC0068860C /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignableTextField.swift; path = "../../../../../OpenWeatherApp-main/OpenWeatherApp/ExtraResource/DesignableTextField.swift"; sourceTree = "<group>"; };
-		832AC14C25E00AAC0068860C /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Medium.ttf"; path = "../../../../../OpenWeatherApp-main/OpenWeatherApp/ExtraResource/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
-		832AC14D25E00AAC0068860C /* DesignButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignButton.swift; path = "../../../../../OpenWeatherApp-main/OpenWeatherApp/ExtraResource/DesignButton.swift"; sourceTree = "<group>"; };
+		83735A7225E5959C00679041 /* BounceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceButton.swift; sourceTree = "<group>"; };
+		83735A7525E595BB00679041 /* DesignableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
+		83735A7825E5960D00679041 /* DesignButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,10 +107,9 @@
 		832AC12C25DFE7340068860C /* ExtraResource */ = {
 			isa = PBXGroup;
 			children = (
-				832AC14A25E00AAC0068860C /* BounceButton.swift */,
-				832AC14B25E00AAC0068860C /* DesignableTextField.swift */,
-				832AC14D25E00AAC0068860C /* DesignButton.swift */,
-				832AC14C25E00AAC0068860C /* Montserrat-Medium.ttf */,
+				83735A7225E5959C00679041 /* BounceButton.swift */,
+				83735A7525E595BB00679041 /* DesignableTextField.swift */,
+				83735A7825E5960D00679041 /* DesignButton.swift */,
 			);
 			path = ExtraResource;
 			sourceTree = "<group>";
@@ -184,7 +181,6 @@
 			files = (
 				832AC11F25DFE6CC0068860C /* LaunchScreen.storyboard in Resources */,
 				832AC11C25DFE6CC0068860C /* Assets.xcassets in Resources */,
-				832AC15025E00AAC0068860C /* Montserrat-Medium.ttf in Resources */,
 				832AC11A25DFE6C80068860C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,11 +195,11 @@
 				832AC11725DFE6C80068860C /* LoginViewController.swift in Sources */,
 				832AC11325DFE6C80068860C /* AppDelegate.swift in Sources */,
 				832AC13E25DFED410068860C /* WelcomeTableViewController.swift in Sources */,
-				832AC15125E00AAC0068860C /* DesignButton.swift in Sources */,
-				832AC14F25E00AAC0068860C /* DesignableTextField.swift in Sources */,
+				83735A7925E5960D00679041 /* DesignButton.swift in Sources */,
 				832AC14425DFEF560068860C /* Extensior.swift in Sources */,
 				832AC11525DFE6C80068860C /* SceneDelegate.swift in Sources */,
-				832AC14E25E00AAC0068860C /* BounceButton.swift in Sources */,
+				83735A7625E595BB00679041 /* DesignableTextField.swift in Sources */,
+				83735A7325E5959C00679041 /* BounceButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
